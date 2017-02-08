@@ -8,7 +8,6 @@
 $ docker pull atsnngs/mysql-aurora-compatible
 $ docker run --detach \
       --publish 13306:3306 \
-      --volume $(pwd)/data:/var/mysql \
       --volume $(pwd)/log:/var/log \
       atsnngs/mysql-aurora-compatible
 $ mysql -uroot -P13306
