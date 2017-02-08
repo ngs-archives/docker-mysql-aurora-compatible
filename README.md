@@ -10,6 +10,6 @@ $ docker run --detach \
       --publish 13306:3306 \
       --volume $(pwd)/data:/var/mysql \
       --volume $(pwd)/log:/var/log \
-      -it atsnngs/mysql-aurora-compatible
+      atsnngs/mysql-aurora-compatible
 $ mysql -uroot -P13306
 ```
