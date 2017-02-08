@@ -4,8 +4,8 @@
 
 ## How to use
 
-```
-$ docker pull atsnngs:mysql-aurora-compatible
+```sh
+$ docker pull atsnngs/mysql-aurora-compatible
 $ docker run --detach \
       --publish 13306:3306 \
       --volume $(pwd)/data:/var/mysql \
